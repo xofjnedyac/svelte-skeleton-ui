@@ -10,7 +10,7 @@
     </script>
     
     {#if type==="light"}
-    <div class="w-1/2 bg-gray-50 m-auto flex-col space-y-1 rounded-xl pb-4 shadow-md">
+    <div class="w-80 h-3/4 bg-gray-50  flex-col space-y-1 rounded-xl pb-4 shadow-md">
         <img src="{image}" alt="card" class="mb-5 h-48 w-full object-cover rounded-t-lg">
         <h1 class="text-center text-gray-900 text-3xl font-bold">{message}</h1>
         <h2 class="text-center text-gray-500 pt-2 p-5 text-md">{subhead}</h2>
@@ -20,7 +20,7 @@
     {/if}
     
     {#if type==="dark"}
-    <div class="w-1/2 bg-gray-800 m-auto flex-col space-y-1 rounded-xl pb-4 shadow-md">
+    <div class="w-80 h-3/4 bg-gray-800  flex-col space-y-1 rounded-xl pb-4 shadow-md">
         <img src="{image}" alt="card" class="mb-5 h-48 w-full object-cover rounded-t-lg">
         <h1 class="text-center text-gray-50 text-3xl font-bold">{message}</h1>
         <h2 class="text-center text-gray-300 pt-2 p-5 text-md">{subhead}</h2>

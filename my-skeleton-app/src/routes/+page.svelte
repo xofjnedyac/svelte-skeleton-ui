@@ -8,7 +8,7 @@
 </svelte:head>
 
 
-<div class="flex flex-row space-x-4 p-4 bg-blue-50">
+<div class="flex flex-row justify-center items-center space-x-4 p-4 h-screen bg-blue-50">
 <Popcard type="dark"/>
 <Popcard type="light"/>
 </div>
